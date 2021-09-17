@@ -1,0 +1,11 @@
+Flask
+Flask-Caching
+numpy
+pandas
+plotly
+dash
+dash_bootstrap_components
+dash_extensions
+dash_table
+dash_defer_js_import
+gunicorn
