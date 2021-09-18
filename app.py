@@ -164,9 +164,9 @@ inputs_div = html.Div(
                                  className = "question-ping"),
                         dbc.Tooltip(
                             children=[
-                                """If yes, the algorithm ignores your current storage capacity 
-                                and determines whether you should improve armament or motorization
-                                next."""],
+                                """If yes, the algorithm ignores the storage as a potential next 
+                                improvement and determines whether you should improve armament or 
+                                motorization next."""],
                             target="storage-q",
                         ),
                         html.H6("Ignore Storage?"),
@@ -187,9 +187,9 @@ inputs_div = html.Div(
                                  className = "question-ping"),
                         dbc.Tooltip(
                             children=[
-                                """If yes, the algorithm ignores your current motorization value 
-                                and determines whether you should improve armament or storage
-                                next."""],
+                                """If yes, the algorithm ignores the motorization as a potential 
+                                next improvement and determines whether you should improve armament 
+                                or storage next."""],
                             target="motorization-q",
                         ),
                         html.H6("Ignore Motorization?"),
