@@ -7,6 +7,7 @@ import dash_html_components as html
 
 import numpy as np
 import math
+import time
 from dash.dependencies import Input, Output, State
 from dash.exceptions import PreventUpdate
 
@@ -215,7 +216,14 @@ inputs_div = html.Div(
                     style={"font-size": 12,}
                 ),
                 html.H6(""),
-                html.H4("Press the button to get your first result!", id = "result"),
+                html.H4(
+                    [
+                        dcc.Loading(
+                            "Press the button to get your first result!", 
+                            id = "result"
+                        ),
+                    ]
+                )
             ],
             style={"textAlign": "center"}
         ),
@@ -326,6 +334,7 @@ def update_value(level):
 )
 def get_next_improve(n_clicks, armament, storage, motorization, ignore1, ignore2):
     if n_clicks:
+        time.sleep(1) # To make the loading spinner visible
         inputs = {
             "Armament": armament,
             "Storage": storage,
