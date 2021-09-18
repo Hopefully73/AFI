@@ -222,7 +222,8 @@ inputs_div = html.Div(
                             "Press the button to get your first result!", 
                             id = "result"
                         ),
-                    ]
+                    ],
+                    id = "result-2",
                 )
             ],
             style={"textAlign": "center"}
@@ -268,7 +269,10 @@ def update_value(level):
     if level is None:
         return ["Missing input", {"color": "red"}]
     elif not isinstance(level, int):
-        return ["Only positive integers are allowed", {"color": "red"}]
+        return [
+            "The input needs to be a positive integer.", 
+            {"color": "red"}
+        ]
     else:
         x = 20 + (4 * (level - 1))
         return [f"{x} ingredients per hour", None]
@@ -285,7 +289,10 @@ def update_value(level):
     if level is None:
         return ["Missing input", {"color": "red"}]
     elif not isinstance(level, int):
-        return ["Only positive integers are allowed", {"color": "red"}]
+        return [
+            "The input needs to be a positive integer.", 
+            {"color": "red"}
+        ]
     else:
         x = 100 + (25 * (level - 1))
         return [f"{x} storage bins", None]
@@ -302,7 +309,10 @@ def update_value(level):
     if level is None:
         return ["Missing input", {"color": "red"}]
     elif not isinstance(level, int):
-        return ["Only positive integers are allowed", {"color": "red"}]
+        return [
+            "The input needs to be a positive integer.", 
+            {"color": "red"}
+        ]
     else:
         x = 2 + (0.25 * (level - 1))
         dec, num = math.modf(x)
@@ -321,7 +331,7 @@ def update_value(level):
 @app.callback(
     [
         Output("result", "children"),
-        Output("result", "style"),
+        Output("result-2", "style"),
     ],
     Input("dbc-btn-improve", "n_clicks"),
     [
@@ -345,6 +355,13 @@ def get_next_improve(n_clicks, armament, storage, motorization, ignore1, ignore2
             error_message = f"Missing inputs: {', '.join(missing_inputs)}"
             return [error_message, {"color": "red"}]
         
+        if (len(list(filter(lambda x: (isinstance(x, int)), 
+                            [armament, storage, motorization]))) < 3):
+            return [
+                "All inputs need to be positive integers.", 
+                {"color": "red"}
+            ]
+        
         # Current values for the three drone parts
         currentArmament = 20 + (4 * (armament - 1))
         currentStorage = 100 + (25 * (storage - 1))
@@ -359,7 +376,6 @@ def get_next_improve(n_clicks, armament, storage, motorization, ignore1, ignore2
                 currentCost = costList[level - 1]
             else:
                 currentCost = 200 + (20 * (level - 30))
-
             return(currentCost)
 
         currentArmamentCost = getCost(armament)
