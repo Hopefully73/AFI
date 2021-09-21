@@ -12,6 +12,7 @@ from dash.dependencies import Input, Output, State
 from dash.exceptions import PreventUpdate
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+app.title = "Alien Food Invasion Help"
 
 server = app.server
 app.config.suppress_callback_exceptions = True
