@@ -169,6 +169,10 @@ inputs_div = html.Div(
                                 improvement and determines whether you improve armament or 
                                 motorization next."""],
                             target="storage-q",
+                            style={
+                                "text-align": "justify",
+                                "max-width": "350px",
+                            },
                         ),
                         html.H6("Ignore Storage?"),
                         dbc.RadioItems(
@@ -192,6 +196,10 @@ inputs_div = html.Div(
                                 next improvement and determines whether you improve armament 
                                 or storage next."""],
                             target="motorization-q",
+                            style={
+                                "text-align": "justify",
+                                "max-width": "350px",
+                            },
                         ),
                         html.H6("Ignore Motorization?"),
                         dbc.RadioItems(
