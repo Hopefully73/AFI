@@ -166,7 +166,7 @@ inputs_div = html.Div(
                         dbc.Tooltip(
                             children=[
                                 """If yes, the algorithm ignores the storage as a potential next 
-                                improvement and determines whether you should improve armament or 
+                                improvement and determines whether you improve armament or 
                                 motorization next."""],
                             target="storage-q",
                         ),
@@ -189,7 +189,7 @@ inputs_div = html.Div(
                         dbc.Tooltip(
                             children=[
                                 """If yes, the algorithm ignores the motorization as a potential 
-                                next improvement and determines whether you should improve armament 
+                                next improvement and determines whether you improve armament 
                                 or storage next."""],
                             target="motorization-q",
                         ),
