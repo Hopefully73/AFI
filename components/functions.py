@@ -1,5 +1,5 @@
 import dash
-from dash import dash_table
+import dash_table
 
 from bs4 import BeautifulSoup
 from markdown import *
