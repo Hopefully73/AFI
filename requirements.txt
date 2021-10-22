@@ -10,3 +10,4 @@ dash_table
 dash_defer_js_import
 gunicorn
 bs4
+markdown
