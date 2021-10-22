@@ -25,7 +25,8 @@ body {
 } 
 
 h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-style: lighter;
   font-weight: 300;
   font-size: 2.6em;
 }
@@ -134,9 +135,10 @@ h6.footer:hover {
 }
 
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   font-size: 0.9em;
+  margin-bottom: 0;
 }
 
 a {
@@ -230,7 +232,7 @@ a:hover {
 .header_panel {
   background-color: white;
   padding-top: 24px;
-  border-bottom: 1px solid #D0D0CE;
+  /* border-bottom: 1px solid #D0D0CE; */
 }
 
 .header_row {
@@ -314,7 +316,7 @@ input[type="range"]::-ms-fill-upper {
 }
 
 .output-container {
-  background-color: #EFEFEE;
+  /* background-color: #EFEFEE; */
   padding-top: 2em;
 }
 
@@ -473,8 +475,7 @@ a:hover {
   border-width: 1px;
   border-style: solid;
   border-radius: 20px;
-  margin: 40px;
-  padding: 1.5em;
+  padding: 2em;
 }
 
 .div-for-headers-2 {
@@ -505,7 +506,10 @@ Hr {
 }
 
 .question-ping {
-    height: 15px;
-    width: 15px;
-    float: right;
+  height: 15px;
+  width: 15px;
+}
+
+.widget {
+  font-family: "Noto Sans", sans-serif;
 }
