@@ -2,6 +2,7 @@ import dash
 from dash import dcc
 from dash import html
 from dash import dash_table
+import dash_bootstrap_components as dbc
 
 from index import app, server
 
