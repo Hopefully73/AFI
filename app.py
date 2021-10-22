@@ -83,7 +83,7 @@ def render_content(tab):
                 ),
                 dbc.Col(
                     html.Div([tab2_panels]),
-                    width={"size": 7},
+                    width={"size": 8},
                     style={"padding-right": "5em"},
                     className="output-container",
                 ),
@@ -109,7 +109,7 @@ def render_content(tab):
                 ),
                 dbc.Col(
                     html.Div([tab1_panels]),
-                    width={"size": 7},
+                    width={"size": 8},
                     style={"padding-right": "5em"},
                     className="output-container",
                 ),
