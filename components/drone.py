@@ -68,7 +68,7 @@ armament_div = html.Div(
                 ),
                 dbc.Col(
                     [
-                        html.H6(["Improve", html.Br(), "Cost"]),
+                        html.H6("Improve Cost"),
                         dcc.Markdown("""
                         1 alien tech
                         """, id = "armament-current-cost")
@@ -122,7 +122,7 @@ motorization_div = html.Div(
                 ),
                 dbc.Col(
                     [
-                        html.H6(["Improve", html.Br(), "Cost"]),
+                        html.H6("Improve Cost"),
                         dcc.Markdown("""
                         1 alien tech
                         """, id = "motorization-current-cost")
@@ -176,7 +176,7 @@ sensor_div = html.Div(
                 ),
                 dbc.Col(
                     [
-                        html.H6(["Improve", html.Br(), "Cost"]),
+                        html.H6("Improve Cost"),
                         dcc.Markdown("""
                         1 alien tech
                         """, id = "sensor-current-cost")
