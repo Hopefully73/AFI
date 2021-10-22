@@ -87,7 +87,7 @@ def get_weapons_table(df):
             {"name": "Rarity", "id": "Rarity", "type": "text"},
             {"name": "Availability", "id": "Availability", "type": "text"},
             {"name": "Base Damage", "id": "Base Damage", "type": "numeric"},
-            {"name": "Base Consumption", "id": "Base Consumption", "type": "numeric"},
+            {"name": "Base Stamina", "id": "Base Stamina", "type": "numeric"},
         ],
         data=df.to_dict('records'),
         page_size= 10,
