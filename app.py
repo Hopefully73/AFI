@@ -16,7 +16,7 @@ from components import (
     header, functions
 )
 
-from index import app
+from index import app, server
 
 tab1_panels = dbc.Container([food_recipes_panel.layout])
 tab2_panels = dbc.Container([weapons_panel.layout])
