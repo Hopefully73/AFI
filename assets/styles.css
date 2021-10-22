@@ -430,8 +430,8 @@ input[type="range"]::-ms-fill-upper {
 .sidepanel-sticky {
   background-color: #FAFAFA;
   float: left;
-  width: 50%;
-  height: 70%;
+  /* width: 50%; */
+  /* height: 70%; */
   position: sticky;
   top: 5px;
   margin-top: 2em;
