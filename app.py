@@ -78,12 +78,12 @@ def render_content(tab):
             [
                 dbc.Col(
                     html.Div([weapons_sidepanel.layout]),
-                    width={"size": 3},
+                    width={"size": 4},
                     className="sidepanel-sticky",
                 ),
                 dbc.Col(
                     html.Div([tab2_panels]),
-                    width={"size": 6},
+                    width={"size": 7},
                     style={"padding-right": "5em"},
                     className="output-container",
                 ),
@@ -104,12 +104,12 @@ def render_content(tab):
             [
                 dbc.Col(
                     html.Div([food_recipes_sidepanel.layout]),
-                    width={"size": 3},
+                    width={"size": 4},
                     className="sidepanel-sticky",
                 ),
                 dbc.Col(
                     html.Div([tab1_panels]),
-                    width={"size": 6},
+                    width={"size": 7},
                     style={"padding-right": "5em"},
                     className="output-container",
                 ),
