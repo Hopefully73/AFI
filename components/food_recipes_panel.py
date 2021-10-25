@@ -14,7 +14,7 @@ from dash.exceptions import PreventUpdate
 from index import app, server
 from components import functions
 
-df = pd.read_csv("data/food_recipes.csv")
+df = pd.read_csv("data/food_recipes.csv", sep = "_")
 
 layout = html.Div([
     dcc.Loading(

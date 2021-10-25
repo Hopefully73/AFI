@@ -14,7 +14,7 @@ from dash.exceptions import PreventUpdate
 from index import app
 from components import functions
 
-df = pd.read_csv("data/food_recipes.csv")
+df = pd.read_csv("data/food_recipes.csv", sep = "_")
 df["Names"] = df["Food Recipe"].apply(functions.markdown_to_text)
 x = df["Names"].unique()
 x.sort()
