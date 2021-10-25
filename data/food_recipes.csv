@@ -1,50 +1,50 @@
-"Food Recipe","Difficulty","Tier","Rarity","Availability","Base Price","Base Time","Base Ratio"
-"[Reptiloid Soup](https://alien-food-invasion.fandom.com/wiki/)","0","1","Common","Starting recipe","200","00:10","1200"
-"[Alien Pretzel](https://alien-food-invasion.fandom.com/wiki/)","0","1","Common","Starting recipe","200","00:10","1200"
-"[Alien Meatball](https://alien-food-invasion.fandom.com/wiki/)","0","1","Common","Starting recipe","150","00:10","900"
-"[Special Sandwich](https://alien-food-invasion.fandom.com/wiki/)","4","1","Common","150 crystals","300","00:15","1200"
-"[Space Omelette](https://alien-food-invasion.fandom.com/wiki/)","6","1","Popular","C1M6 reward","500","00:15","2000"
-"[Spaghetti Alienara](https://alien-food-invasion.fandom.com/wiki/)","7","1","Popular","200 crystals","400","00:15","1600"
-"[Space Muffin](https://alien-food-invasion.fandom.com/wiki/)","8","1","Common","C2M2 reward","500","00:20","1500"
-"[Reptiloid Sticks](https://alien-food-invasion.fandom.com/wiki/)","10","1","Common","150 crystals","1500","01:00","1500"
-"[Space Tacos](https://alien-food-invasion.fandom.com/wiki/)","11","1","Popular","200 crystals","1750","00:50","2100"
-"[Schnitzel Alien Style](https://alien-food-invasion.fandom.com/wiki/)","12","1","Common","150 crystals","1000","00:40","1500"
-"[Alien Sausage](https://alien-food-invasion.fandom.com/wiki/)","15","1","Common","C1M15 reward","500","00:20","1500"
-"[Space Lobster](https://alien-food-invasion.fandom.com/wiki/)","15","1","Popular","200 crystals","4000","01:45","2285.71"
-"[Alien Burger](https://alien-food-invasion.fandom.com/wiki/)","15","1","Popular","C2M8 reward","400","00:15","1600"
-"[Alien Paella](https://alien-food-invasion.fandom.com/wiki/)","18","1","Popular","200 crystals","1000","00:30","2000"
-"[Commander Curry](https://alien-food-invasion.fandom.com/wiki/)","20","2","Common","200 crystals","8000","04:00","2000"
-"[Venus Fish Sandwich](https://alien-food-invasion.fandom.com/wiki/)","21","1","Common","C3M6 reward","2000","01:30","1333.33"
-"[Pate Surprise](https://alien-food-invasion.fandom.com/wiki/)","22","1","Common","C2M14 reward","3000","02:15","1333.33"
-"[Space Pancake](https://alien-food-invasion.fandom.com/wiki/)","25","2","Idolized","300 crystals","6000","02:00","3000"
-"[Porridge Deluxe](https://alien-food-invasion.fandom.com/wiki/)","26","1","Idolized","C2M17 reward","3000","01:15","2400"
-"[Mars Dumplings](https://alien-food-invasion.fandom.com/wiki/)","26","1","Popular","C4M3 reward","3500","01:45","2000"
-"[Space Pudding](https://alien-food-invasion.fandom.com/wiki/)","35","2","Popular","C5M2 reward","5000","02:15","2222.22"
-"[Alien Kebab](https://alien-food-invasion.fandom.com/wiki/)","39","2","Idolized","300 crystals","20000","05:00","4000"
-"[Commander Cake](https://alien-food-invasion.fandom.com/wiki/)","39","2","Idolized","300 crystals","25000","06:00","4166.67"
-"[Space Sushi](https://alien-food-invasion.fandom.com/wiki/)","40","2","Idolized","C3M20 reward","22500","05:45","3913.04"
-"[Chili con Alien](https://alien-food-invasion.fandom.com/wiki/)","40","2","Popular","250 crystals","12500","04:00","3125"
-"[Alien Fish'n Chips](https://alien-food-invasion.fandom.com/wiki/)","40","2","Common","C5M5 reward","7500","04:00","1875"
-"[Surf'n Invade](https://alien-food-invasion.fandom.com/wiki/)","42","2","Idolized","300 crystals","12500","03:00","4166.67"
-"[Space Goulash](https://alien-food-invasion.fandom.com/wiki/)","44","2","Idolized","C4M14 reward","5000","01:45","2857.14"
-"[Reptiloid with Vegetables](https://alien-food-invasion.fandom.com/wiki/)","44","3","Popular","350 crystals","40000","12:00","3333.33"
-"[Special Dumplings](https://alien-food-invasion.fandom.com/wiki/)","44","3","Idolized","400 crystals","30000","07:30","4000"
-"[Chicken Nuggets](https://alien-food-invasion.fandom.com/wiki/)","48","2","Common","C5M9 reward","27000","12:30","2160"
-"[Commander Power Bar](https://alien-food-invasion.fandom.com/wiki/)","50","3","Popular","350 crystals","65000","17:00","3823.53"
-"[Special Chocolate Cake](https://alien-food-invasion.fandom.com/wiki/)","52","3","Idolized","400 crystals","70000","10:00","7000"
-"[Alien Apple Pie](https://alien-food-invasion.fandom.com/wiki/)","53","4","Idolized","C4M20 reward","80000","16:00","5000"
-"[Alien Eggs & Bacon](https://alien-food-invasion.fandom.com/wiki/)","58","3","Idolized","C6M8 reward","55000","12:00","4583.33"
-"[Pizza Universe](https://alien-food-invasion.fandom.com/wiki/)","62","3","Popular","C5M17 reward","37000","11:30","3217.39"
-"[Alien Pita](https://alien-food-invasion.fandom.com/wiki/)","66","4","Popular","400 crystals","150000","21:00","7142.86"
-"[Alien Medallions](https://alien-food-invasion.fandom.com/wiki/)","70","4","Popular","400 crystals","85000","14:00","6071.43"
-"[Special Calamares](https://alien-food-invasion.fandom.com/wiki/)","70","4","Popular","C7M7 reward","150000","27:00","5555.56"
-"[Fish Stew Surprise](https://alien-food-invasion.fandom.com/wiki/)","72","4","Popular","400 crystals","125000","20:00","6250"
-"[Commander Grill Skewer](https://alien-food-invasion.fandom.com/wiki/)","76","4","Idolized","500 crystals","460000","54:00","8518.52"
-"[Alien Cordon Bleu](https://alien-food-invasion.fandom.com/wiki/)","76","3","Popular","350 crystals","70000","11:00","6363.64"
-"[Galaxy Cake](https://alien-food-invasion.fandom.com/wiki/)","78","4","Common","350 crystals","100000","26:00","3846.15"
-"[Steak Plate Surprise](https://alien-food-invasion.fandom.com/wiki/)","79","3","Common","C8M5 reward","45000","11:00","4090.91"
-"[Space Lasagna](https://alien-food-invasion.fandom.com/wiki/)","87","4","Idolized","C8M8 reward","265000","32:00","8281.25"
-"[Pizza Venus](https://alien-food-invasion.fandom.com/wiki/)","98","4","Idolized","C7M20 reward","190000","22:00","8636.36"
-"[Special Pizza Calzone](https://alien-food-invasion.fandom.com/wiki/)","106","4","Idolized","C8M16 reward","250000","38:00","6578.95"
-"[Commander Sweet-Sour](https://alien-food-invasion.fandom.com/wiki/)","120","4","Idolized","C10M8 reward","250000","28:00","8928.57"
-"[Tentacle Hot Dog](https://alien-food-invasion.fandom.com/wiki/)","126","4","Idolized","C9M17 reward","250000","38:00","6578.95"
+Food Recipe,Difficulty,Tier,Rarity,Availability,Base Price,Base Time,Base Ratio
+[Reptiloid Soup](https://alien-food-invasion.fandom.com/wiki/),0,1,Common,Starting recipe,200,0:10,1200
+[Alien Pretzel](https://alien-food-invasion.fandom.com/wiki/),0,1,Common,Starting recipe,200,0:10,1200
+[Alien Meatball](https://alien-food-invasion.fandom.com/wiki/),0,1,Common,Starting recipe,150,0:10,900
+[Special Sandwich](https://alien-food-invasion.fandom.com/wiki/),4,1,Common,150 crystals,300,0:15,1200
+[Space Omelette](https://alien-food-invasion.fandom.com/wiki/),6,1,Popular,C1M6 reward,500,0:15,2000
+[Spaghetti Alienara](https://alien-food-invasion.fandom.com/wiki/),7,1,Popular,200 crystals,400,0:15,1600
+[Space Muffin](https://alien-food-invasion.fandom.com/wiki/),8,1,Common,C2M2 reward,500,0:20,1500
+[Reptiloid Sticks](https://alien-food-invasion.fandom.com/wiki/),10,1,Common,150 crystals,1500,1:00,1500
+[Space Tacos](https://alien-food-invasion.fandom.com/wiki/),11,1,Popular,200 crystals,1750,0:50,2100
+[Schnitzel Alien Style](https://alien-food-invasion.fandom.com/wiki/),12,1,Common,150 crystals,1000,0:40,1500
+[Alien Sausage](https://alien-food-invasion.fandom.com/wiki/),15,1,Common,C1M15 reward,500,0:20,1500
+[Space Lobster](https://alien-food-invasion.fandom.com/wiki/),15,1,Popular,200 crystals,4000,1:45,2285.71
+[Alien Burger](https://alien-food-invasion.fandom.com/wiki/),15,1,Popular,C2M8 reward,400,0:15,1600
+[Alien Paella](https://alien-food-invasion.fandom.com/wiki/),18,1,Popular,200 crystals,1000,0:30,2000
+[Commander Curry](https://alien-food-invasion.fandom.com/wiki/),20,2,Common,200 crystals,8000,4:00,2000
+[Venus Fish Sandwich](https://alien-food-invasion.fandom.com/wiki/),21,1,Common,C3M6 reward,2000,1:30,1333.33
+[Pate Surprise](https://alien-food-invasion.fandom.com/wiki/),22,1,Common,C2M14 reward,3000,2:15,1333.33
+[Space Pancake](https://alien-food-invasion.fandom.com/wiki/),25,2,Idolized,300 crystals,6000,2:00,3000
+[Porridge Deluxe](https://alien-food-invasion.fandom.com/wiki/),26,1,Idolized,C2M17 reward,3000,1:15,2400
+[Mars Dumplings](https://alien-food-invasion.fandom.com/wiki/),26,1,Popular,C4M3 reward,3500,1:45,2000
+[Space Pudding](https://alien-food-invasion.fandom.com/wiki/),35,2,Popular,C5M2 reward,5000,2:15,2222.22
+[Alien Kebab](https://alien-food-invasion.fandom.com/wiki/),39,2,Idolized,300 crystals,20000,5:00,4000
+[Commander Cake](https://alien-food-invasion.fandom.com/wiki/),39,2,Idolized,300 crystals,25000,6:00,4166.67
+[Space Sushi](https://alien-food-invasion.fandom.com/wiki/),40,2,Idolized,C3M20 reward,22500,5:45,3913.04
+[Chili con Alien](https://alien-food-invasion.fandom.com/wiki/),40,2,Popular,250 crystals,12500,4:00,3125
+[Alien Fish'n Chips](https://alien-food-invasion.fandom.com/wiki/),40,2,Common,C5M5 reward,7500,4:00,1875
+[Surf'n Invade](https://alien-food-invasion.fandom.com/wiki/),41,2,Idolized,300 crystals,12500,3:00,4166.67
+[Space Goulash](https://alien-food-invasion.fandom.com/wiki/),44,2,Idolized,C4M14 reward,5000,1:45,2857.14
+[Reptiloid with Vegetables](https://alien-food-invasion.fandom.com/wiki/),44,3,Popular,350 crystals,40000,12:00,3333.33
+[Special Dumplings](https://alien-food-invasion.fandom.com/wiki/),44,3,Idolized,400 crystals,30000,7:30,4000
+[Chicken Nuggets](https://alien-food-invasion.fandom.com/wiki/),48,2,Common,C5M9 reward,27000,12:30,2160
+[Commander Power Bar](https://alien-food-invasion.fandom.com/wiki/),50,3,Popular,350 crystals,65000,17:00,3823.53
+[Special Chocolate Cake](https://alien-food-invasion.fandom.com/wiki/),52,3,Idolized,400 crystals,70000,10:00,7000
+[Alien Apple Pie](https://alien-food-invasion.fandom.com/wiki/),53,4,Idolized,C4M20 reward,80000,16:00,5000
+[Alien Eggs & Bacon](https://alien-food-invasion.fandom.com/wiki/),58,3,Idolized,C6M8 reward,55000,12:00,4583.33
+[Pizza Universe](https://alien-food-invasion.fandom.com/wiki/),62,3,Popular,C5M17 reward,37000,11:30,3217.39
+[Alien Pita](https://alien-food-invasion.fandom.com/wiki/),66,4,Popular,400 crystals,150000,21:00,7142.86
+[Alien Medallions](https://alien-food-invasion.fandom.com/wiki/),70,4,Popular,400 crystals,85000,14:00,6071.43
+[Special Calamares](https://alien-food-invasion.fandom.com/wiki/),70,4,Popular,C7M7 reward,150000,27:00:00,5555.56
+[Fish Stew Surprise](https://alien-food-invasion.fandom.com/wiki/),72,4,Popular,400 crystals,125000,20:00,6250
+[Commander Grill Skewer](https://alien-food-invasion.fandom.com/wiki/),76,4,Idolized,500 crystals,460000,54:00:00,8518.52
+[Alien Cordon Bleu](https://alien-food-invasion.fandom.com/wiki/),76,3,Popular,350 crystals,70000,11:00,6363.64
+[Galaxy Cake](https://alien-food-invasion.fandom.com/wiki/),78,4,Common,350 crystals,100000,26:00:00,3846.15
+[Steak Plate Surprise](https://alien-food-invasion.fandom.com/wiki/),79,3,Common,C8M5 reward,45000,11:00,4090.91
+[Space Lasagna](https://alien-food-invasion.fandom.com/wiki/),87,4,Idolized,C8M8 reward,265000,32:00:00,8281.25
+[Pizza Venus](https://alien-food-invasion.fandom.com/wiki/),98,4,Idolized,C7M20 reward,190000,22:00,8636.36
+[Special Pizza Calzone](https://alien-food-invasion.fandom.com/wiki/),106,4,Idolized,C8M16 reward,250000,38:00:00,6578.95
+[Commander Sweet-Sour](https://alien-food-invasion.fandom.com/wiki/),120,4,Idolized,C10M8 reward,250000,28:00:00,8928.57
+[Tentacle Hot Dog](https://alien-food-invasion.fandom.com/wiki/),126,4,Idolized,C9M17 reward,250000,38:00:00,6578.95
