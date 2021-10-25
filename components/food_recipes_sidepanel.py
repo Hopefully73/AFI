@@ -127,7 +127,7 @@ layout = dbc.Container(
                                 [dbc.Button(
                                     "Reload Table", 
                                     id="food-recipes-button",
-                                    color="info")],
+                                    color="primary")],
                                 style = {"textAlign": "center"}
                             )
                         )
