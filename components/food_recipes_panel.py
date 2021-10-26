@@ -42,7 +42,7 @@ def update_table(n_clicks, recipe, tier, rarity, availability):
     if n_clicks:
         time.sleep(1)
         
-        if recipe is None:
+        if recipe is None or len(recipe) == 0:
             cond1 = df["Tier"].isin(tier)
             cond2 = df["Rarity"].isin(rarity)
        
@@ -54,7 +54,6 @@ def update_table(n_clicks, recipe, tier, rarity, availability):
                 cond3 = df["Availability"].str.contains("r", regex=False)
 
             new_df = df[cond1 & cond2 & cond3]
-            
         else:
             df["Names"] = df["Food Recipe"].apply(functions.markdown_to_text)
             x = df["Names"].isin(recipe)

@@ -43,7 +43,7 @@ def update_table(n_clicks, weapon, typ, tier, rarity, availability):
     if n_clicks:
         time.sleep(1)
         
-        if weapon is None:
+        if weapon is None or len(weapon) == 0:
             cond1 = df["Type"].isin(typ)
             cond2 = df["Tier"].isin(tier)
             
@@ -63,7 +63,6 @@ def update_table(n_clicks, weapon, typ, tier, rarity, availability):
                 cond4 = df["Availability"].str.contains("r", regex=False)
 
             new_df = df[cond1 & cond2 & cond3 & cond4]
-        
         else:
             df["Names"] = df["Weapon"].apply(functions.markdown_to_text)
             x = df["Names"].isin(weapon)
