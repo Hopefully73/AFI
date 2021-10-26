@@ -98,6 +98,14 @@ def get_weapons_table(df):
         page_size= 10,
         sort_action="native",
         sort_mode="multi",
+        tooltip_header = {"Availability": """Some improved weapons require their original 
+        counterparts to be acquired in order to receive them for free."""},
+        tooltip_delay = 0,
+        tooltip_duration= None,
+        css=[{
+            'selector': '.dash-table-tooltip',
+            'rule': 'font-family: Noto Sans; color: black'
+        }],
         # Disable highlighting of active cell
         style_data_conditional=[    
             {
