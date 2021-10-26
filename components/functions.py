@@ -1,5 +1,6 @@
 import dash
 import dash_table
+from dash_table.Format import Format, Scheme, Group
 
 from bs4 import BeautifulSoup
 from markdown import *
@@ -32,9 +33,11 @@ def get_food_recipes_table(df):
             {"name": "Tier", "id": "Tier", "type": "numeric"},
             {"name": "Rarity", "id": "Rarity", "type": "text"},
             {"name": "Availability", "id": "Availability", "type": "text"},
-            {"name": "Base Price", "id": "Base Price", "type": "numeric"},
+            {"name": "Base Price", "id": "Base Price", "type": "numeric",
+             "format": Format(scheme = Scheme.fixed, precision = 0, group = Group.yes)},
             {"name": "Base Time", "id": "Base Time", "type": "numeric"},
-            {"name": "Base Ratio", "id": "Base Ratio", "type": "numeric"}
+            {"name": "Base Ratio", "id": "Base Ratio", "type": "numeric",
+             "format": Format(scheme = Scheme.fixed, precision = 2, group = Group.yes)}
         ],
         data=df.to_dict('records'),
         page_size= 10,
@@ -85,9 +88,11 @@ def get_weapons_table(df):
             {"name": "Difficulty", "id": "Difficulty", "type": "numeric"},
             {"name": "Tier", "id": "Tier", "type": "numeric"},
             {"name": "Rarity", "id": "Rarity", "type": "text"},
-            {"name": "Availability", "id": "Availability", "type": "text"},
-            {"name": "Base Damage", "id": "Base Damage", "type": "numeric"},
-            {"name": "Base Stamina", "id": "Base Stamina", "type": "numeric"},
+            {"name": "Availability*", "id": "Availability", "type": "text"},
+            {"name": "Base Damage", "id": "Base Damage", "type": "numeric",
+             "format": Format(scheme = Scheme.fixed, precision = 0, group = Group.yes)},
+            {"name": "Base Stamina", "id": "Base Stamina", "type": "numeric",
+             "format": Format(scheme = Scheme.fixed, precision = 2, group = Group.yes)},
         ],
         data=df.to_dict('records'),
         page_size= 10,
