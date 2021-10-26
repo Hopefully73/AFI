@@ -70,6 +70,16 @@ h6.footer:hover {
   text-decoration: underline #ff994b;
 }
 
+label {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.custom-label {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.9em;
+  margin-left: 1.33%;
+}
+
 .card-title {
   font-family: "Noto Sans", sans-serif;
   font-style: lighter;
