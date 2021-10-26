@@ -82,7 +82,15 @@ def render_content(tab):
                     className="sidepanel-sticky",
                 ),
                 dbc.Col(
-                    html.Div([tab2_panels]),
+                    html.Div(
+                        [
+                            tab2_panels, 
+                            html.Label("""
+                            *Some weapons require their original weapons to be acquired 
+                            in order to receive it for free.
+                            """, className = "custom-label")
+                        ]
+                    ),
                     width={"size": 8},
                     style={"padding-right": "5em"},
                     className="output-container",
