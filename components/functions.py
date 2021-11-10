@@ -27,9 +27,9 @@ def markdown_to_text(markdown_string):
 def get_food_recipes_table(df):
     return dash_table.DataTable(
         columns=[
-            {"name": "Food Recipe", "id": "Food Recipe", "type": "text", 
+            {"name": "Food Dish", "id": "Food Dish", "type": "text", 
              "presentation": "markdown"},
-            {"name": "Difficulty", "id": "Difficulty", "type": "numeric"},
+            #{"name": "Level", "id": "Level", "type": "numeric"},
             {"name": "Tier", "id": "Tier", "type": "numeric"},
             {"name": "Rarity", "id": "Rarity", "type": "text"},
             {"name": "Availability", "id": "Availability", "type": "text"},
@@ -85,7 +85,7 @@ def get_weapons_table(df):
             {"name": "Weapon", "id": "Weapon", "type": "text", 
              "presentation": "markdown"},
             {"name": "Type", "id": "Type", "type": "text"},
-            {"name": "Difficulty", "id": "Difficulty", "type": "numeric"},
+            #{"name": "Level", "id": "Level", "type": "numeric"},
             {"name": "Tier", "id": "Tier", "type": "numeric"},
             {"name": "Rarity", "id": "Rarity", "type": "text"},
             {"name": "Availability*", "id": "Availability", "type": "text"},
@@ -141,4 +141,3 @@ def get_weapons_table(df):
             'textAlign': 'center'
         }
     )
-

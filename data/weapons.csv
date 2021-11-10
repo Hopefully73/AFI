@@ -1,46 +1,46 @@
-Weapon,Type,Difficulty,Tier,Rarity,Availability,Base Damage,Base Stamina
-[Kids Axe](https://alien-food-invasion.fandom.com/wiki/),Axe,0,1,Common,Starting weapon,100,2
-[Daddy's Gun](https://alien-food-invasion.fandom.com/wiki/),Gun,0,1,Common,Starting weapon,150,2
-[Rolling Pin](https://alien-food-invasion.fandom.com/wiki/),Rolling Pin,0,1,Common,Starting weapon,200,1.5
-[The Incendiary](https://alien-food-invasion.fandom.com/wiki/),Gun,3,1,Expert,C1M3 reward,150,2
-[Small Boom](https://alien-food-invasion.fandom.com/wiki/),Axe,4,2,Expert,250 crystals,175,2.5
-[The Firewood](https://alien-food-invasion.fandom.com/wiki/),Rolling Pin,8,2,Legendary,300 crystals,350,2
-[Longwood](https://alien-food-invasion.fandom.com/wiki/),Rolling Pin,9,2,Common,C1M9 reward,350,2
-[Improved Gun](https://alien-food-invasion.fandom.com/wiki/),Gun,11,2,Common,C2M5 reward,275,2.5
-[Improved Axe](https://alien-food-invasion.fandom.com/wiki/),Axe,12,2,Common,C1M12 reward,175,2.5
-[Explosive Gun](https://alien-food-invasion.fandom.com/wiki/),Gun,15,3,Legendary,400 crystals,450,3
-[Electric Axe](https://alien-food-invasion.fandom.com/wiki/),Axe,18,3,Expert,C3M4 reward,300,3
-[Premium Rolling Pin](https://alien-food-invasion.fandom.com/wiki/),Rolling Pin,19,3,Common,C2M11 reward,600,2.5
-[Toxicator](https://alien-food-invasion.fandom.com/wiki/),Gun,20,3,Expert,C1M20 reward,450,3
-[Double Pin](https://alien-food-invasion.fandom.com/wiki/),Rolling Pin,20,3,Expert,350 crystals,550,3
-[Acid Charger](https://alien-food-invasion.fandom.com/wiki/),Rolling Pin,26,4,Expert,C3M10 reward,1000,3
-[The Vampire](https://alien-food-invasion.fandom.com/wiki/),Axe,29,4,Legendary,C4M5 reward,525,3.5
-[The Nuke](https://alien-food-invasion.fandom.com/wiki/),Gun,32,4,Legendary,C3M14 reward,750,3.5
-[The Miniator](https://alien-food-invasion.fandom.com/wiki/),Gun,33,4,Expert,400 crystals,800,3.5
-[Mega Axe](https://alien-food-invasion.fandom.com/wiki/),Axe,36,4,Expert,400 crystals,550,3.5
-[Gun Deluxe](https://alien-food-invasion.fandom.com/wiki/),Gun,48,5,Common,C6M3 reward,1250,4
-[Fire Axe of Slow Motion](https://alien-food-invasion.fandom.com/wiki/),Axe,50,5,Legendary,550 crystals,850,4
-[Rolling Pin Deluxe](https://alien-food-invasion.fandom.com/wiki/),Rolling Pin,55,5,Common,C5M13 reward,1750,3
-[The Doctor](https://alien-food-invasion.fandom.com/wiki/),Rolling Pin,56,5,Legendary,550 crystals,1650,3.5
-[Axe Deluxe](https://alien-food-invasion.fandom.com/wiki/),Axe,63,5,Common,C7M4 reward,900,4
-[Sunflower Axe](https://alien-food-invasion.fandom.com/wiki/),Axe,76,6,Common,450 crystals,1500,4.5
-[Explosive Projectile Gun](https://alien-food-invasion.fandom.com/wiki/),Gun,80,6,Expert,550 crystals,1950,4.5
-[Shockwood](https://alien-food-invasion.fandom.com/wiki/),Rolling Pin,87,6,Expert,C7M15 reward,2600,4
-[Double Pin Deluxe](https://alien-food-invasion.fandom.com/wiki/),Rolling Pin,87,6,Expert,550 crystals,2300,4
-[The God of Fire](https://alien-food-invasion.fandom.com/wiki/),Gun,87,6,Expert,C9M2 reward,1950,4.5
-[Big Boom](https://alien-food-invasion.fandom.com/wiki/),Axe,94,6,Expert,C8M11 reward,1250,4.5
-[Acid Charger](https://alien-food-invasion.fandom.com/wiki/),Rolling Pin,102,6,"Expert, improved",C9M8 reward,2600,4
-[Axe Deluxe](https://alien-food-invasion.fandom.com/wiki/),Axe,102,6,"Common, improved",C9M8 reward,1400,4.5
-[Electric Axe](https://alien-food-invasion.fandom.com/wiki/),Axe,102,6,"Expert, improved",C9M8 reward,1250,4.5
-[Explosive Gun](https://alien-food-invasion.fandom.com/wiki/),Gun,102,6,"Legendary, improved",C9M8 reward*,1950,4.5
-[Fire Axe of Slow Motion](https://alien-food-invasion.fandom.com/wiki/),Axe,102,6,"Legendary, improved",C9M8 reward*,1250,4.5
-[Gun Deluxe](https://alien-food-invasion.fandom.com/wiki/),Gun,102,6,"Common, improved",C9M8 reward,2100,4.5
-[Mega Axe](https://alien-food-invasion.fandom.com/wiki/),Axe,102,6,"Expert, improved",C9M8 reward*,1350,4.5
-[Rolling Pin Deluxe](https://alien-food-invasion.fandom.com/wiki/),Rolling Pin,102,6,"Common, improved",C9M8 reward,2850,4
-[The Doctor](https://alien-food-invasion.fandom.com/wiki/),Rolling Pin,102,6,"Legendary, improved",C9M8 reward*,2600,4
-[The Firewood](https://alien-food-invasion.fandom.com/wiki/),Rolling Pin,102,6,"Legendary, improved",C9M8 reward*,2600,4
-[The Incendiary](https://alien-food-invasion.fandom.com/wiki/),Gun,102,6,"Expert, improved",C9M8 reward,1950,4.5
-[The Miniator](https://alien-food-invasion.fandom.com/wiki/),Gun,102,6,"Expert, improved",C9M8 reward*,2050,4.5
-[The Nuke](https://alien-food-invasion.fandom.com/wiki/),Gun,102,6,"Legendary, improved",C9M8 reward,1950,4.5
-[The Vampire](https://alien-food-invasion.fandom.com/wiki/),Axe,102,6,"Legendary, improved",C9M8 reward,1300,4.5
-[Toxicator](https://alien-food-invasion.fandom.com/wiki/),Gun,102,6,"Expert, improved",C9M8 reward,1950,4.5
+Weapon,Type,Level,Tier,Rarity,Availability,Base Damage,Base Stamina
+[Kid's Axe](https://alien-food-invasion.fandom.com/wiki/Kid%27s_Axe),Axe,0,1,Common,Starting weapon,100,2
+[Daddy's Gun](https://alien-food-invasion.fandom.com/wiki/Daddy%27s_Gun),Gun,0,1,Common,Starting weapon,150,2
+[Rolling Pin](https://alien-food-invasion.fandom.com/wiki/Rolling_Pin),Rolling Pin,0,1,Common,Starting weapon,200,1.5
+[The Incendiary](https://alien-food-invasion.fandom.com/wiki/The_Incendiary),Gun,3,1,Legendary,C1M3 reward,150,2
+[Small Boom](https://alien-food-invasion.fandom.com/wiki/Small_Boom),Axe,4,2,Expert,C1M4; 250 crystals,175,2.5
+[The Firewood](https://alien-food-invasion.fandom.com/wiki/The_Firewood),Rolling Pin,8,2,Legendary,C1M8; 300 crystals,350,2
+[Longwood](https://alien-food-invasion.fandom.com/wiki/Longwood),Rolling Pin,9,2,Common,C1M9 reward,350,2
+[Improved Gun](https://alien-food-invasion.fandom.com/wiki/Improved_Gun),Gun,11,2,Common,C2M5 reward,275,2.5
+[Improved Axe](https://alien-food-invasion.fandom.com/wiki/Improved_Axe),Axe,12,2,Common,C1M12 reward,175,2.5
+[Explosive Gun](https://alien-food-invasion.fandom.com/wiki/Explosive_Gun),Gun,15,3,Legendary,C1M15 or C2M9; 400 crystals,450,3
+[Electric Axe](https://alien-food-invasion.fandom.com/wiki/Electric_Axe),Axe,17,3,Expert,C3M4 reward,300,3
+[Premium Rolling Pin](https://alien-food-invasion.fandom.com/wiki/Premium_Rolling_Pin),Rolling Pin,18,3,Common,C2M11 reward,600,2.5
+[Toxicator](https://alien-food-invasion.fandom.com/wiki/Toxicator),Gun,20,3,Expert,C1M20 reward,450,3
+[Double Pin](https://alien-food-invasion.fandom.com/wiki/Double_Pin),Rolling Pin,20,3,Expert,"C1M20, C2M13, or C3M6; 350 crystals",550,3
+[Acid Charger](https://alien-food-invasion.fandom.com/wiki/Acid_Charger),Rolling Pin,26,4,Expert,C3M10 reward,1000,3
+[The Vampire](https://alien-food-invasion.fandom.com/wiki/The_Vampire),Axe,29,4,Legendary,C4M5 reward,525,3.5
+[Gun Deluxe](https://alien-food-invasion.fandom.com/wiki/Gun_Deluxe),Gun,31,4,Common,C3M14 reward,800,3.5
+[The Minifier](https://alien-food-invasion.fandom.com/wiki/The_Minifier),Gun,33,4,Expert,C3M15 or C4M8; 400 crystals,800,3.5
+[Mega Axe](https://alien-food-invasion.fandom.com/wiki/Mega_Axe),Axe,35,4,Expert,C3M17 or C4M9; 400 crystals,550,3.5
+[The Nuke](https://alien-food-invasion.fandom.com/wiki/The_Nuke),Gun,48,5,Legendary,C6M3 reward,1150,4
+[Fire Axe of Slow Motion](https://alien-food-invasion.fandom.com/wiki/Fire_Axe_of_Slow_Motion),Axe,50,5,Legendary,C5M11 or C6M4; 550 crystals,850,4
+[Rolling Pin Deluxe](https://alien-food-invasion.fandom.com/wiki/Rolling_Pin_Deluxe),Rolling Pin,54,5,Common,C5M13 reward,1750,3
+[The Doctor](https://alien-food-invasion.fandom.com/wiki/The_Doctor),Rolling Pin,56,5,Legendary,"C5M14, C6M7, or C7M1; 550 crystals",1650,3.5
+[Axe Deluxe](https://alien-food-invasion.fandom.com/wiki/Axe_Deluxe),Axe,62,5,Common,C7M4 reward,900,4
+[Sunflower Axe](https://alien-food-invasion.fandom.com/wiki/Sunflower_Axe),Axe,76,6,Common,"C6M17, C7M10, or C8M4; 450 crystals",1500,4.5
+[Explosive Projectile Gun](https://alien-food-invasion.fandom.com/wiki/Explosive_Projectile_Gun),Gun,80,6,Expert,C6M19 or C7M12; 550 crystals,1950,4.5
+[Double Pin Deluxe](https://alien-food-invasion.fandom.com/wiki/Double_Pin_Deluxe),Rolling Pin,86,6,Expert,C8M8 or C9M2; 550 crystals,2300,4
+[The God of Fire](https://alien-food-invasion.fandom.com/wiki/The_God_of_Fire),Gun,86,6,Expert,C9M2 reward,1950,4.5
+[Shockwood](https://alien-food-invasion.fandom.com/wiki/Shockwood),Rolling Pin,87,6,Expert,C7M15 reward,2600,4
+[Big Boom](https://alien-food-invasion.fandom.com/wiki/Big_Boom),Axe,93,6,Expert,C8M11 reward,1250,4.5
+[Acid Charger](https://alien-food-invasion.fandom.com/wiki/Acid_Charger_(improved)),Rolling Pin,101,6,"Expert, improved",C9M8 reward,2600,4
+[Axe Deluxe](https://alien-food-invasion.fandom.com/wiki/Axe_Deluxe_(improved)),Axe,101,6,"Common, improved",C9M8 reward,1400,4.5
+[Electric Axe](https://alien-food-invasion.fandom.com/wiki/Electric_Axe_(improved)),Axe,101,6,"Expert, improved",C9M8 reward,1250,4.5
+[Explosive Gun](https://alien-food-invasion.fandom.com/wiki/Explosive_Gun_(improved)),Gun,101,6,"Legendary, improved",C9M8 reward*,1950,4.5
+[Fire Axe of Slow Motion](https://alien-food-invasion.fandom.com/wiki/Fire_Axe_of_Slow_Motion_(improved)),Axe,101,6,"Legendary, improved",C9M8 reward*,1250,4.5
+[Gun Deluxe](https://alien-food-invasion.fandom.com/wiki/Gun_Deluxe_(improved)),Gun,101,6,"Common, improved",C9M8 reward,2100,4.5
+[Mega Axe](https://alien-food-invasion.fandom.com/wiki/Mega_Axe_(improved)),Axe,101,6,"Expert, improved",C9M8 reward*,1350,4.5
+[Rolling Pin Deluxe](https://alien-food-invasion.fandom.com/wiki/Rolling_Pin_Deluxe_(improved)),Rolling Pin,101,6,"Common, improved",C9M8 reward,2850,4
+[The Doctor](https://alien-food-invasion.fandom.com/wiki/The_Doctor_(improved)),Rolling Pin,101,6,"Legendary, improved",C9M8 reward*,2600,4
+[The Firewood](https://alien-food-invasion.fandom.com/wiki/The_Firewood_(improved)),Rolling Pin,101,6,"Legendary, improved",C9M8 reward*,2600,4
+[The Incendiary](https://alien-food-invasion.fandom.com/wiki/The_Incendiary_(improved)),Gun,101,6,"Legendary, improved",C9M8 reward,1950,4.5
+[The Minifier](https://alien-food-invasion.fandom.com/wiki/The_Minifier_(improved)),Gun,101,6,"Expert, improved",C9M8 reward*,2050,4.5
+[The Nuke](https://alien-food-invasion.fandom.com/wiki/The_Nuke_(improved)),Gun,101,6,"Legendary, improved",C9M8 reward,1950,4.5
+[The Vampire](https://alien-food-invasion.fandom.com/wiki/The_Vampire_(improved)),Axe,101,6,"Legendary, improved",C9M8 reward,1300,4.5
+[Toxicator](https://alien-food-invasion.fandom.com/wiki/Toxicator_(improved)),Gun,101,6,"Expert, improved",C9M8 reward,1950,4.5

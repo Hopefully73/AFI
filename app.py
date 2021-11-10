@@ -31,7 +31,7 @@ tabs_div = html.Div(
             className="custom-tabs-container",
             children=[
                 dcc.Tab(
-                    label="Food Recipes",
+                    label="Food Dishes",
                     value="tab-1",
                     className="custom-tab",
                     selected_className="custom-tab--selected",

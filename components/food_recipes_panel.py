@@ -15,7 +15,7 @@ from dash.exceptions import PreventUpdate
 from index import app, server
 from components import functions
 
-df = pd.read_csv("data/food_recipes.csv", sep = "_")
+df = pd.read_csv("data/food_dishes.csv", sep = "_")
 
 layout = html.Div([
     dcc.Loading(
@@ -55,7 +55,7 @@ def update_table(n_clicks, recipe, tier, rarity, availability):
 
             new_df = df[cond1 & cond2 & cond3]
         else:
-            df["Names"] = df["Food Recipe"].apply(functions.markdown_to_text)
+            df["Names"] = df["Food Dish"].apply(functions.markdown_to_text)
             x = df["Names"].isin(recipe)
             new_df = df.loc[x]
     
