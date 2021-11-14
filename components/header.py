@@ -8,7 +8,7 @@ from index import app, server
 
 title_div = html.Div(
     [
-        html.H6("Dashboard", className="header_caption"),
+        html.H6("Hopefully's Dashboard", className="header_caption"),
         html.H1("Fun Flavor Games | Alien Food Invasion"),
     ]
 )
