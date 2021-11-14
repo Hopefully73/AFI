@@ -1,0 +1,301 @@
+Arena,Level,Mission Type
+1,140,Normal
+2,144,Normal
+3,149,Normal
+4,153,Loot meat
+5,158,Normal
+6,162,Loot meat
+7,167,Loot reptiloids and eggs
+8,171,Normal
+9,176,Normal
+10,180,Normal
+11,185,Normal
+12,189,Loot reptiloids and eggs
+13,194,Normal
+14,198,Normal
+15,203,Normal
+16,207,Destroy container
+17,212,Normal
+18,216,Destroy container
+19,221,Normal
+20,225,Loot veggies
+21,230,Loot reptiloids and eggs
+22,234,Normal
+23,239,Normal
+24,243,Normal
+25,248,Normal
+26,252,Normal
+27,257,Normal
+28,261,Normal
+29,266,Loot meat
+30,270,Destroy container
+31,275,Normal
+32,279,Loot meat
+33,284,Normal
+34,288,Normal
+35,293,Normal
+36,297,Normal
+37,302,Normal
+38,306,Loot veggies
+39,311,Normal
+40,315,Normal
+41,320,Loot veggies
+42,324,Normal
+43,329,Loot meat
+44,333,Normal
+45,338,Destroy container
+46,342,Destroy container
+47,347,Normal
+48,351,Loot reptiloids and eggs
+49,356,Destroy container
+50,360,Loot reptiloids and eggs
+51,365,Normal
+52,369,Normal
+53,374,Destroy container
+54,378,Loot reptiloids and eggs
+55,383,Normal
+56,387,Normal
+57,392,Destroy container
+58,396,Destroy container
+59,401,Loot reptiloids and eggs
+60,405,Normal
+61,410,Loot meat
+62,414,Normal
+63,419,Normal
+64,423,Normal
+65,428,Normal
+66,432,Loot meat
+67,437,Normal
+68,441,Normal
+69,446,Loot meat
+70,450,Normal
+71,455,Loot veggies
+72,459,Normal
+73,464,Normal
+74,468,Loot reptiloids and eggs
+75,473,Loot veggies
+76,477,Normal
+77,482,Destroy container
+78,486,Normal
+79,491,Loot meat
+80,495,Normal
+81,500,Normal
+82,504,Loot reptiloids and eggs
+83,509,Normal
+84,513,Destroy container
+85,518,Normal
+86,522,Normal
+87,527,Normal
+88,531,Normal
+89,536,Loot veggies
+90,540,Normal
+91,545,Loot reptiloids and eggs
+92,549,Normal
+93,554,Destroy container
+94,558,Normal
+95,563,Loot reptiloids and eggs
+96,567,Normal
+97,572,Destroy container
+98,576,Normal
+99,581,Normal
+100,585,Destroy container
+101,590,Normal
+102,594,Loot meat
+103,599,Normal
+104,603,Normal
+105,608,Normal
+106,612,Normal
+107,617,Loot reptiloids and eggs
+108,621,Normal
+109,626,Normal
+110,630,Loot meat
+111,635,Loot veggies
+112,639,Normal
+113,644,Normal
+114,648,Normal
+115,653,Normal
+116,657,Normal
+117,662,Destroy container
+118,666,Normal
+119,671,Normal
+120,675,Loot veggies
+121,680,Normal
+122,684,Normal
+123,689,Loot veggies
+124,693,Normal
+125,698,Normal
+126,702,Normal
+127,707,Loot meat
+128,711,Normal
+129,716,Normal
+130,720,Normal
+131,725,Loot meat
+132,729,Normal
+133,734,Normal
+134,738,Loot veggies
+135,743,Loot reptiloids and eggs
+136,747,Normal
+137,752,Normal
+138,756,Normal
+139,761,Normal
+140,765,Destroy container
+141,770,Normal
+142,774,Normal
+143,779,Loot veggies
+144,783,Normal
+145,788,Normal
+146,792,Normal
+147,797,Normal
+148,801,Normal
+149,806,Normal
+150,810,Loot veggies
+151,815,Normal
+152,819,Loot reptiloids and eggs
+153,824,Normal
+154,828,Normal
+155,833,Normal
+156,837,Loot reptiloids and eggs
+157,842,Normal
+158,846,Loot meat
+159,851,Destroy container
+160,855,Loot meat
+161,860,Loot reptiloids and eggs
+162,864,Normal
+163,869,Loot veggies
+164,873,Normal
+165,878,Loot meat
+166,882,Normal
+167,887,Normal
+168,891,Normal
+169,896,Normal
+170,900,Destroy container
+171,905,Normal
+172,909,Loot meat
+173,914,Normal
+174,918,Loot meat
+175,923,Normal
+176,927,Loot meat
+177,932,Loot reptiloids and eggs
+178,936,Normal
+179,941,Normal
+180,945,Normal
+181,950,Loot veggies
+182,954,Normal
+183,959,Normal
+184,963,Normal
+185,968,Normal
+186,972,Destroy container
+187,977,Normal
+188,981,Destroy container
+189,986,Normal
+190,990,Loot veggies
+191,995,Normal
+192,999,Normal
+193,1004,Normal
+194,1008,Normal
+195,1013,Normal
+196,1017,Normal
+197,1022,Normal
+198,1026,Normal
+199,1031,Loot meat
+200,1035,Destroy container
+201,1040,Loot meat
+202,1044,Normal
+203,1049,Normal
+204,1053,Normal
+205,1058,Normal
+206,1062,Normal
+207,1067,Normal
+208,1071,Loot veggies
+209,1076,Normal
+210,1080,Normal
+211,1085,Normal
+212,1089,Normal
+213,1094,Loot meat
+214,1098,Normal
+215,1103,Destroy container
+216,1107,Destroy container
+217,1112,Normal
+218,1116,Loot reptiloids and eggs
+219,1121,Destroy container
+220,1125,Loot reptiloids and eggs
+221,1130,Normal
+222,1134,Loot reptiloids and eggs
+223,1139,Normal
+224,1143,Loot reptiloids and eggs
+225,1148,Normal
+226,1152,Normal
+227,1157,Destroy container
+228,1161,Destroy container
+229,1166,Loot reptiloids and eggs
+230,1170,Normal
+231,1175,Loot reptiloids and eggs
+232,1179,Normal
+233,1184,Normal
+234,1188,Normal
+235,1193,Normal
+236,1197,Loot meat
+237,1202,Normal
+238,1206,Normal
+239,1211,Loot meat
+240,1215,Normal
+241,1220,Normal
+242,1224,Loot meat
+243,1229,Normal
+244,1233,Loot reptiloids and eggs
+245,1238,Loot veggies
+246,1242,Normal
+247,1247,Destroy container
+248,1251,Normal
+249,1256,Loot meat
+250,1260,Normal
+251,1265,Loot veggies
+252,1269,Normal
+253,1274,Normal
+254,1278,Destroy container
+255,1283,Normal
+256,1287,Normal
+257,1292,Normal
+258,1296,Normal
+259,1301,Loot veggies
+260,1305,Normal
+261,1310,Loot reptiloids and eggs
+262,1314,Normal
+263,1319,Destroy container
+264,1323,Normal
+265,1328,Loot reptiloids and eggs
+266,1332,Normal
+267,1337,Destroy container
+268,1341,Normal
+269,1346,Normal
+270,1350,Destroy container
+271,1355,Loot meat
+272,1359,Normal
+273,1364,Normal
+274,1368,Normal
+275,1373,Normal
+276,1377,Normal
+277,1382,Loot reptiloids and eggs
+278,1386,Normal
+279,1391,Normal
+280,1395,Loot meat
+281,1400,Normal
+282,1404,Normal
+283,1409,Normal
+284,1413,Normal
+285,1418,Normal
+286,1422,Normal
+287,1427,Destroy container
+288,1431,Normal
+289,1436,Normal
+290,1440,Loot veggies
+291,1445,Normal
+292,1449,Loot reptiloids and eggs
+293,1454,Normal
+294,1458,Normal
+295,1463,Normal
+296,1467,Normal
+297,1472,Loot meat
+298,1476,Normal
+299,1481,Normal
+300,1485,Normal

@@ -141,3 +141,50 @@ def get_weapons_table(df):
             'textAlign': 'center'
         }
     )
+
+def get_arena_mode_table(df):
+    return dash_table.DataTable(
+        columns=[
+            {"name": "Arena", "id": "Arena", "type": "numeric"},
+            {"name": "Level", "id": "Level", "type": "numeric"},
+            {"name": "Mission Type", "id": "Mission Type", "type": "text"}
+        ],
+        data=df.to_dict('records'),
+        page_size= 10,
+        sort_action="native",
+        sort_mode="multi",
+        # Disable highlighting of active cell
+        style_data_conditional=[    
+            {
+                "if": {"state": "selected"},
+                "backgroundColor": "inherit !important",
+                "border": "inherit !important",
+            }  
+        ],
+        style_cell_conditional=[
+            {
+                'if': {
+                    'column_type': 'text'
+                },
+                'textAlign': 'center'
+            },
+            {
+                'if': {
+                    'column_type': 'numeric'
+                 },
+                'textAlign': 'center'
+            },            
+        ],
+        style_data={
+            'color': 'black',
+            'backgroundColor': 'white',
+            'font-family': 'Noto Sans'
+        },
+        style_header={
+            'backgroundColor': 'rgb(220, 220, 220)',
+            'color': 'black',
+            'font-family': 'Noto Sans',
+            'fontWeight': 'bold',
+            'textAlign': 'center'
+        }
+    )
