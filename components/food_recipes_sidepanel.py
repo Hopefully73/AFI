@@ -79,7 +79,7 @@ availability_div = html.Div(
         dbc.RadioItems(
             options=[
                 {"label": "Free", "value": "free"},
-                {"label": "Paid", "value": "paid"},
+                {"label": "Shop", "value": "paid"},
                 {"label": "Both", "value": "both"}
             ],
             value="both",
