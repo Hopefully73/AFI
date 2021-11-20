@@ -128,12 +128,12 @@ def render_content(tab):
             [
                 dbc.Col(
                     html.Div([food_recipes_sidepanel.layout]),
-                    width={"size": 4},
+                    width={"size": 3},
                     className="sidepanel-sticky",
                 ),
                 dbc.Col(
                     html.Div([tab1_panels]),
-                    width={"size": 8},
+                    width={"size": 9},
                     style={"padding-right": "5em"},
                     className="output-container",
                 ),
