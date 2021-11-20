@@ -1,5 +1,6 @@
 import dash
 import dash_table
+import dash_html_components as html
 from dash_table.Format import Format, Scheme, Group
 
 from bs4 import BeautifulSoup
@@ -30,6 +31,8 @@ def get_food_recipes_table(df):
             {"name": "Food Dish", "id": "Food Dish", "type": "text", 
              "presentation": "markdown"},
             #{"name": "Level", "id": "Level", "type": "numeric"},
+            {"name": "Ingredient(s)", "id": "Ingredient(s)", "type": "text", 
+             "presentation": "markdown"},
             {"name": "Tier", "id": "Tier", "type": "numeric"},
             {"name": "Rarity", "id": "Rarity", "type": "text"},
             {"name": "Availability", "id": "Availability", "type": "text"},

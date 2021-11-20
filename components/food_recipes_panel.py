@@ -33,16 +33,17 @@ layout = html.Div([
     Input("food-recipes-button", "n_clicks"),
     [
         State("food-recipe-dropdown", "value"),
+        State("ingredient-dropdown", "value"),
         State("food-recipe-tier-checklist", "value"),
         State("food-recipe-rarity-checklist", "value"),
         State("food-recipe-availability-radio", "value")
     ]
 )
-def update_table(n_clicks, recipe, tier, rarity, availability):
+def update_table(n_clicks, recipe, ing, tier, rarity, availability):
     if n_clicks:
         time.sleep(1)
         
-        if recipe is None or len(recipe) == 0:
+        if recipe is None or len(recipe) == 0 and ing is None:
             cond1 = df["Tier"].isin(tier)
             cond2 = df["Rarity"].isin(rarity)
        
@@ -54,10 +55,19 @@ def update_table(n_clicks, recipe, tier, rarity, availability):
                 cond3 = df["Availability"].str.contains("r", regex=False)
 
             new_df = df[cond1 & cond2 & cond3]
-        else:
+        elif recipe is None or len(recipe) == 0:
+            cond = df["Ingredient(s)"].str.contains(ing, regex=False)
+            new_df = df[cond]
+        elif ing is None:
             df["Names"] = df["Food Dish"].apply(functions.markdown_to_text)
             x = df["Names"].isin(recipe)
             new_df = df.loc[x]
+        else:
+            df["Names"] = df["Food Dish"].apply(functions.markdown_to_text)
+            x = df["Names"].isin(recipe)
+            cond = df["Ingredient(s)"].str.contains(ing, regex=False)
+            new_df = df.loc[x]
+            new_df = new_df[cond]
     
         if len(new_df) == 0:
             return dcc.Markdown(

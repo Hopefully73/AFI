@@ -19,9 +19,9 @@ df["Names"] = df["Food Dish"].apply(functions.markdown_to_text)
 x = df["Names"].unique()
 x.sort()
 
-search_div = html.Div(
+search_recipe_div = html.Div(
     [
-        html.H6("Search food recipe"),
+        html.H6("Search food dish"),
         dcc.Dropdown(
             id="food-recipe-dropdown",
             options=[{'label': i, 'value': i} for i in x],
@@ -29,6 +29,43 @@ search_div = html.Div(
             persistence_type="memory",
             multi = True,
             placeholder = "Choose one or more from the list."
+        ),
+    ],
+    className="input_div",
+)
+
+search_ing_div = html.Div(
+    [
+        html.H6("Search ingredient"),
+        dcc.Dropdown(
+            id="ingredient-dropdown",
+            options=[
+                {"label": "Alien claw", "value": "A. claw"},
+                {"label": "Alien egg", "value": "A. egg"},
+                {"label": "Alien egg goo", "value": "A. egg goo"},
+                {"label": "Alien egg jelly", "value": "A. egg jelly"},
+                {"label": "Alien meat", "value": "A. meat"},
+                {"label": "Alien thigh", "value": "A. thigh"},
+                {"label": "Alien tongue", "value": "A. tongue"},
+                {"label": "Commander antennas", "value": "C. antennas"},
+                {"label": "Commander brain", "value": "C. brain"},
+                {"label": "Commander eye", "value": "C. eye"},
+                {"label": "Commander heart", "value": "C. heart"},
+                {"label": "Reptiloid claws", "value": "R. claws"},
+                {"label": "Reptiloid fillet", "value": "R. fillet"},
+                {"label": "Reptiloid fin", "value": "R. fin"},
+                {"label": "Reptiloid tentacle", "value": "R. tentacle"},
+                {"label": "Veggie alien blossom", "value": "V.A. blossom"},
+                {"label": "Veggie alien bud", "value": "V.A. bud"},
+                {"label": "Veggie alien fruit", "value": "V.A. fruit"},
+                {"label": "Veggie alien grain spike", "value": "V.A. grain spike"},
+                {"label": "Veggie alien root", "value": "V.A. root"},
+                {"label": "Veggie alien seeds", "value": "V.A. seeds"},
+                {"label": "Veggie alien sprout", "value": "V.A. sprout"},
+            ],
+            persistence=True,
+            persistence_type="memory",
+            placeholder = "Choose one from the list."
         ),
     ],
     className="input_div",
@@ -98,7 +135,13 @@ layout = dbc.Container(
             [
                 dbc.Row(
                     [
-                        dbc.Col(search_div),
+                        dbc.Col(search_recipe_div),
+                    ]
+                ),
+                html.H6(""),
+                dbc.Row(
+                    [
+                        dbc.Col(search_ing_div),
                     ]
                 ),
                 html.H6(""),
