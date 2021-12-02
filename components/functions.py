@@ -191,3 +191,53 @@ def get_arena_mode_table(df):
             'textAlign': 'center'
         }
     )
+
+def get_equipment_items_table(df):
+    return dash_table.DataTable(
+        columns=[
+            {"name": "Equipment Item", "id": "Equipment Item", "type": "text", 
+             "presentation": "markdown"},
+            {"name": "Type", "id": "Type", "type": "text"},
+            {"name": "Availability", "id": "Availability", "type": "text"},
+            {"name": "Base Effect", "id": "Base Effect", "type": "text"},
+            {"name": "Crafting Cost", "id": "Crafting Cost", "type": "text"}
+        ],
+        data=df.to_dict('records'),
+        page_size= 10,
+        sort_action="native",
+        sort_mode="multi",
+        # Disable highlighting of active cell
+        style_data_conditional=[    
+            {
+                "if": {"state": "selected"},
+                "backgroundColor": "inherit !important",
+                "border": "inherit !important",
+            }  
+        ],
+        style_cell_conditional=[
+            {
+                'if': {
+                    'column_type': 'text'
+                },
+                'textAlign': 'left'
+            },    
+            {
+                'if': {
+                    'column_id': 'Availability'
+                },
+                'textAlign': 'center'
+            }
+        ],
+        style_data={
+            'color': 'black',
+            'backgroundColor': 'white',
+            'font-family': 'Noto Sans'
+        },
+        style_header={
+            'backgroundColor': 'rgb(220, 220, 220)',
+            'color': 'black',
+            'font-family': 'Noto Sans',
+            'fontWeight': 'bold',
+            'textAlign': 'center'
+        }
+    )
