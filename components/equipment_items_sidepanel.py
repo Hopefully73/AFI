@@ -25,7 +25,7 @@ layout = dbc.Container(
                 html.H6(html.B("Availability")),
                 html.H6("- total  no. of stars required to unlock the equipment item"),
                 html.H6(html.B("Damage")),
-                html.H6("- total normal attack damage from all family members' weapons"),
+                html.H6("- total normal attack damage from the family members' weapons"),
                 html.H6(html.B("Use")),
                 html.H6("""- no. of times this item can be used per mission; has a cooldown 
                         prior to every use"""),
