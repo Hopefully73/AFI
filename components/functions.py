@@ -94,6 +94,7 @@ def get_weapons_table(df):
             {"name": "Availability*", "id": "Availability", "type": "text"},
             {"name": "Base Damage", "id": "Base Damage", "type": "numeric",
              "format": Format(scheme = Scheme.fixed, precision = 0, group = Group.yes)},
+            {"name": "Base Crit (%)", "id": "Base Crit (%)", "type": "numeric"},
             {"name": "Base Stamina", "id": "Base Stamina", "type": "numeric",
              "format": Format(scheme = Scheme.fixed, precision = 2, group = Group.yes)},
         ],
